@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro de Rifa</title>
+</head>
+
+<body>
+    <center>
+        <h1>Cadastro de Rifa</h1>
+        <form action="cadastra_rifa.php" method="post">
+            <label for="nome_rifa">Nome da Rifa:</label><br>
+            <input type="text" id="nome_rifa" name="nome_rifa" required><br><br>
+            <label for="descricao">Descrição:</label><br>
+            <input type="text" id="descricao" name="descricao" required><br><br>
+            <label for="preco">Preço:</label><br>
+            <input type="number" id="preco" name="preco" required><br><br>
+            <label for="nome_comprador">Nome do Comprador:</label><br>
+            <input type="text" id="nome_comprador" name="nome_comprador" required><br><br>
+            <label for="telefone">Telefone:</label><br>
+            <input type="text" id="telefone" name="telefone" required><br><br>
+            <label for="endereco">Endereço:</label><br>
+            <input type="text" id="endereco" name="endereco" required><br><br>
+            <input type="submit" value="Cadastrar Rifa">
+        </form>
+    </center>
+</body>
+</html>

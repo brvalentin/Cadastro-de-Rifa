@@ -3,10 +3,10 @@ O Cadastramento de rifas é uma aplicação simples para o cadastramento de comp
 
 Funcionalidades
 Cadastro de Rifas: Registre o nome da rifa, uma descrição breve e o valor de cada bilhete.
-Registro de Compradores: Armazene informações como nome, endereço e telefone dos compradores de bilhetes.
+Registro de Compradores: Armazene informações como número da rifa, endereço e telefone dos compradores de bilhetes.
 Como Usar
 Cadastro de Rifa
-Preencha o formulário com o nome da rifa, uma breve descrição sobre ela e o valor unitário de cada bilhete.
+Preencha o formulário com o número da rifa.
 Registro de Compradores
 Para cada compra de bilhete, insira o nome do comprador, seu endereço completo e número de telefone para contato.
 Gerenciamento
